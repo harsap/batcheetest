@@ -1,0 +1,5 @@
+<job id="myjob" version="1.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee">
+    <step id="myStep">
+        <batchlet ref="helloBatchlet"/>
+    </step>
+</job>
