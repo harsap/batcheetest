@@ -32,7 +32,6 @@ public class MyJobArquillianIT {
     @Deployment(testable = false)
     public static Archive<?> war() {
         final File[] files = Maven.configureResolver()
-                .workOffline()
                 .loadPomFromFile("pom.xml")
                 .resolve("org.apache.batchee:batchee-jaxrs-server")
                 .withTransitivity()
