@@ -82,6 +82,11 @@
             </exclusions>
         </dependency>
         <dependency>
+            <groupId>org.apache.batchee</groupId>
+            <artifactId>batchee-servlet-embedded</artifactId>
+            <version>${version.org.apache.batchee}</version>
+        </dependency>
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
